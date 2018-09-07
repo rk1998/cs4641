@@ -1,0 +1,25 @@
+Traveling Salesman Problem
+N = 50
+
+Randomized Hill Climbing
+
+Average Fitness: 0.12083560482981874
+Total Time: 4.138253077
+
+
+
+Simulated Annealing
+
+Average Fitness: 0.12064100263732475
+Total Time: 13.790267814999996
+
+
+Genetic Algorithm
+
+Average Fitness: 0.14475265822030067
+Total Time: 13.960412475999997
+
+MIMIC
+
+Average Fitness: 0.1090595420331974
+Total Time: 675.9824241560004

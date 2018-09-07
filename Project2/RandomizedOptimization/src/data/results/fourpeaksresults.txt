@@ -1,0 +1,21 @@
+Four Peaks Problem, N = 100, T = 5
+50 Iterations
+
+Randomized Hill Climbing
+
+Average Fitness: 100.0
+Total Time: 3.0292144720000005
+
+
+Simulated Annealing
+Average Fitness: 119.58
+Total Time: 3.0292144720000005
+
+Genetic Algorithm
+Average Fitness: 97.32
+Total Time: 3.782430922
+
+
+MIMIC
+Average Fitness: 123.14
+Total Time: 192.95923373599993

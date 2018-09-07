@@ -1,0 +1,21 @@
+
+Two Colors Problem
+k = 2
+N = 100 * k
+
+
+Randomized Hill Climbing
+Average Fitness: 198.0
+Total Time: 6.521489438
+
+Simulated Annealing
+Average Fitness: 198.0
+Total Time: 10.225041163
+
+Genetic Algorithm
+Average Fitness: 188.74
+Total Time: 19.700146238000002
+
+MIMIC
+Average Fitness: 197.68
+Total Time: 735.3277416560001

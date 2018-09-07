@@ -1,0 +1,23 @@
+N = 120
+Randomized Hill Climbing
+
+Average Fitness: 98.3
+Total Time: 3.408838916000001
+
+
+Simulated Annealing
+
+Average Fitness: 118.48
+Total Time: 8.120205335000001
+
+
+Genetic Algorithm
+
+Average Fitness: 103.56
+Total Time: 6.067254540999996
+
+
+MIMIC
+
+Average Fitness: 112.98
+Total Time: 272.424200394
