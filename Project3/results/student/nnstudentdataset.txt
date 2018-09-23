@@ -1,0 +1,330 @@
+Neural Network on Student Dataset
+Test Accuracy: 0.732484076433
+
+
+Classification report:
+
+
+             precision    recall  f1-score   support
+
+          0       0.30      0.43      0.35        14
+          1       0.69      0.74      0.71        87
+          2       0.86      0.75      0.80       174
+          3       0.60      0.77      0.67        39
+
+avg / total       0.76      0.73      0.74       314
+
+
+
+Confusion Matrix:
+
+
+[[  6   8   0   0]
+ [ 11  64  12   0]
+ [  3  21 130  20]
+ [  0   0   9  30]]
+
+
+Neural Network Results- After running PCA
+Reconstruction Error 0.719699817086
+EigenValues = [ 3.39359075  2.53791227  1.7546735   1.62925774]
+
+
+Test Accuracy: 0.726114649682
+
+Classification report:
+
+
+             precision    recall  f1-score   support
+
+          0       0.40      0.15      0.22        13
+          1       0.68      0.74      0.71        96
+          2       0.76      0.82      0.79       163
+          3       0.75      0.50      0.60        42
+
+avg / total       0.72      0.73      0.72       314
+
+
+
+Confusion Matrix:
+
+
+[[  2  10   1   0]
+ [  3  71  22   0]
+ [  0  22 134   7]
+ [  0   1  20  21]]
+
+PCA - added Kmeans Clusters as a Feature
+Test Accuracy: 0.665605095541
+
+
+
+
+Classification report:
+
+
+             precision    recall  f1-score   support
+
+          0       0.33      0.05      0.09        20
+          1       0.60      0.64      0.62        97
+          2       0.69      0.81      0.74       154
+          3       0.81      0.51      0.63        43
+
+avg / total       0.65      0.67      0.65       314
+
+
+
+Confusion Matrix:
+
+
+[[  1  16   3   0]
+ [  2  62  33   0]
+ [  0  25 124   5]
+ [  0   0  21  22]]
+
+
+PCA - added EM Clusters as a Feature
+Test Accuracy: 0.512738853503
+
+Classification report:
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00        17
+          1       0.00      0.00      0.00       100
+          2       0.51      1.00      0.68       161
+          3       0.00      0.00      0.00        36
+
+avg / total       0.26      0.51      0.35       314
+
+
+
+Confusion Matrix:
+
+
+[[  0   0  17   0]
+ [  0   0 100   0]
+ [  0   0 161   0]
+ [  0   0  36   0]]
+
+ICA
+Kurtosis = [ 0.72732283  0.64470482 -0.24517232  0.22483769]
+Test Accuracy: 0.573248407643
+
+Classification report:
+
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00        12
+          1       0.00      0.00      0.00        83
+          2       0.57      1.00      0.73       180
+          3       0.00      0.00      0.00        39
+
+avg / total       0.33      0.57      0.42       314
+
+
+
+Confusion Matrix:
+
+
+[[  0   0  12   0]
+ [  0   0  83   0]
+ [  0   0 180   0]
+ [  0   0  39   0]]
+
+ICA - added Kmeans Clusters
+Test Accuracy: 0.53821656051
+
+
+Classification report:
+
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00        13
+          1       0.00      0.00      0.00        91
+          2       0.54      1.00      0.70       169
+          3       0.00      0.00      0.00        41
+
+avg / total       0.29      0.54      0.38       314
+
+
+
+Confusion Matrix:
+
+
+[[  0   0  13   0]
+ [  0   0  91   0]
+ [  0   0 169   0]
+ [  0   0  41   0]]
+
+
+ICA- added EM Clusters
+Test Accuracy: 0.703821656051
+Classification report:
+
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00        19
+          1       0.66      0.68      0.67       106
+          2       0.74      0.79      0.77       156
+          3       0.66      0.76      0.70        33
+
+avg / total       0.66      0.70      0.68       314
+
+
+
+Confusion Matrix:
+
+
+[[  0  18   1   0]
+ [  0  72  34   0]
+ [  0  19 124  13]
+ [  0   0   8  25]]
+
+Neural Networks - Random projection
+
+Reconstruction Error 0.880796845657
+
+Test Accuracy: 0.519108280255
+Classification report:
+
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00        14
+          1       0.00      0.00      0.00        99
+          2       0.52      1.00      0.68       163
+          3       0.00      0.00      0.00        38
+
+avg / total       0.27      0.52      0.35       314
+
+
+
+Confusion Matrix:
+
+
+[[  0   0  14   0]
+ [  0   0  99   0]
+ [  0   0 163   0]
+ [  0   0  38   0]]
+
+
+Random Projection-added kmeans clusters
+Test Accuracy: 0.544585987261
+
+Classification report:
+
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00        11
+          1       0.00      0.00      0.00       100
+          2       0.54      1.00      0.71       171
+          3       0.00      0.00      0.00        32
+
+avg / total       0.30      0.54      0.38       314
+
+
+
+Confusion Matrix:
+
+
+[[  0   0  11   0]
+ [  0   0 100   0]
+ [  0   0 171   0]
+ [  0   0  32   0]]
+
+
+Test Accuracy: 0.522292993631
+
+
+Classification report:
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00        14
+          1       0.00      0.00      0.00        94
+          2       0.52      1.00      0.69       164
+          3       0.00      0.00      0.00        42
+
+avg / total       0.27      0.52      0.36       314
+
+
+
+Confusion Matrix:
+
+
+[[  0   0  14   0]
+ [  0   0  94   0]
+ [  0   0 164   0]
+ [  0   0  42   0]]
+
+Neural Networks - LDA
+Test Accuracy: 0.528662420382
+Classification report:
+
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00        18
+          1       0.00      0.00      0.00        94
+          2       0.53      1.00      0.69       166
+          3       0.00      0.00      0.00        36
+
+avg / total       0.28      0.53      0.37       314
+
+
+
+Confusion Matrix:
+
+
+[[  0   0  18   0]
+ [  0   0  94   0]
+ [  0   0 166   0]
+ [  0   0  36   0]]
+
+LDA - added Kmeans Clusters
+Test Accuracy: 0.837579617834
+
+Classification report:
+
+
+             precision    recall  f1-score   support
+
+          0       0.75      0.56      0.64        16
+          1       0.79      0.87      0.83       103
+          2       0.86      0.88      0.87       156
+          3       0.96      0.69      0.81        39
+
+avg / total       0.84      0.84      0.84       314
+
+
+
+Confusion Matrix:
+
+
+[[  9   7   0   0]
+ [  2  90  11   0]
+ [  1  17 137   1]
+ [  0   0  12  27]]
+
+LDA - added EM Clusters
+Test Accuracy: 0.808917197452
+
+Classification report:
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00        14
+          1       0.71      0.93      0.81       105
+          2       0.90      0.81      0.85       158
+          3       0.85      0.76      0.80        37
+
+avg / total       0.79      0.81      0.79       314
+
+
+
+Confusion Matrix:
+
+
+[[  0  14   0   0]
+ [  0  98   6   1]
+ [  0  26 128   4]
+ [  0   0   9  28]]
+
+
+
